@@ -1,0 +1,20 @@
+body {
+	background :#cdd4ff;
+	width: 960px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333540;
+	margin: 0 auto;
+	font-size: small;
+}
+
+a {
+	color: #666a7f;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a:hover { color: #9aa0bf; }
+
+main {
+	margin: 25px 0 50px;
+}

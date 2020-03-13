@@ -1,0 +1,21 @@
+.item {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.item:last-of-type {
+  margin-right: 0;
+}
+
+.link {
+  background-color: #666a7f;
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: #9AA0BF;
+  color: #FFFFFF;
+}

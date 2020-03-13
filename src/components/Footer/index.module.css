@@ -1,0 +1,12 @@
+.footer {
+  overflow: hidden;
+}
+
+.copyright {
+  float: left;
+  margin-top: 10px;
+}
+
+.nav {
+  float: right;
+}
