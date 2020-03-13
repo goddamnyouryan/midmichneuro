@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
+import style from "./index.module.css"
+
 const MarkdownContent = ({ path }) => {
   const results = useStaticQuery(graphql`
     query PageQuery {
@@ -23,6 +25,7 @@ const MarkdownContent = ({ path }) => {
 
   return(
     <div
+      className={style.container}
       dangerouslySetInnerHTML={{ __html: data.html }}
     />
   )

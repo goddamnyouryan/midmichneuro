@@ -2,17 +2,25 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import Image from "../components/Image"
 import SEO from "../components/SEO"
-import MarkdownContent from "../components/MarkdownContent"
+import Markdown from "../components/Markdown"
+import info from '../images/info.png'
+import allForms from '../forms/all-forms.pdf'
+
+import style from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <MarkdownContent path='/index' />
-    <div style={{ maxWidth: `400px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className={style.map}>
+      <img src={info} useMap="#info-map" alt="Nav links for MNA Site" />
+      <map name="info-map">
+        <area shape="rect" coords="701,20,944,90" href="/about" alt="About Link" />
+        <area shape="rect" coords="703,114,944,183" href="/contact" alt="Contact Link" />
+        <area shape="rect" coords="702,211,943,278" href={allForms} alt="Forms Link" />
+      </map>
     </div>
+    <Markdown path='/info' />
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
