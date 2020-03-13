@@ -5,8 +5,8 @@ import style from "./index.module.css"
 
 const Nav = ({ className }) => (
   <ul className={className}>
-    {links.map(link => (
-      <li className={style.item}>
+    {links.map((link, index) => (
+      <li className={style.item} key={index}>
         <Link className={style.link} to={link.url}>{link.name}</Link>
       </li>
     ))}
