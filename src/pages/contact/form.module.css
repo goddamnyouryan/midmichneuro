@@ -1,0 +1,26 @@
+.field, .submit {
+  color: #333540;
+  font-size: small;
+  font-weight: bold;
+  height: 25px;
+  margin: 10px 0;
+  border: 1px solid #333540;
+  display: block;
+  width: 400px;
+  padding: 5px 10px;
+}
+
+.textarea {
+  color: #333540;
+  font-family: helvetica,arial,sans-serif;
+  font-size: small;
+  font-weight: bold;
+  margin: 10px 0;
+  border: 1px solid #333540;
+  padding: 5px 10px;
+}
+
+.submit {
+  width: auto;
+  cursor: pointer;
+}

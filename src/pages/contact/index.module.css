@@ -1,0 +1,32 @@
+.title {
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.formContainer {
+  float: left;
+  width: 50%;
+}
+
+.mapContainer {
+  float: right;
+  width: 50%;
+  text-align: right;
+  line-height: 1.4
+}
+
+.mapContainer a {
+  display: block;
+  margin: 15px 0
+}
+
+.contact {
+  margin-bottom: 25px;
+}
