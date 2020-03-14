@@ -1,0 +1,9 @@
+.about p {
+  overflow: hidden;
+}
+
+.about p > span {
+  float: left;
+  width: 200px;
+  margin-right: 25px !important;
+}

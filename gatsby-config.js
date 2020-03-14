@@ -35,6 +35,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 960,
+              linkImagesToOriginal: false,
             },
           },
         ],
@@ -44,7 +45,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown`,
-        path: `${__dirname}/src/page-data`,
+        path: `${__dirname}/src/data`,
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
