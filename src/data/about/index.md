@@ -15,7 +15,7 @@ Dr. Zigmond A Kozicki is a limited license psychologist providing cognitive beha
 ![Kristen](kristen.jpg)
 Is our Office Manager, Biller and Receptionist for MidMichigan Neuropsychology. She can answer any general questions you may have and questions about billing, payment or scheduling. We are currently a preferred provider for BlueCross Blue Shield. We also accept Medicare and United Health Care, Humana, and Connect Care, automobile insurance and most commercial health insurance.
 
-We are **NOT** participating providers for Blue Care Network, Health Alliance Plan (HAP), Health Plus, Tricare or Medicaid. Kristen will assist you to make sure we are able to provide excellent service at reasonable cost.
+We are **NOT** participating providers for Blue Care Network, Health Plus, Tricare or Medicaid. Kristen will assist you to make sure we are able to provide excellent service at reasonable cost.
 
 ## Laura
 ![Kristen](laura.jpg)
