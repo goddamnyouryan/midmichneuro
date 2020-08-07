@@ -10,6 +10,7 @@
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-s3": "^0.3.3",
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-remark-images": "^3.1.49",
     "gatsby-source-filesystem": "^2.1.55",
@@ -34,7 +35,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "upload": "AWS_PROFILE=personal gatsby-plugin-s3 deploy --yes",
+    "deploy": "yarn build && yarn upload"
   },
   "repository": {
     "type": "git",

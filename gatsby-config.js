@@ -48,6 +48,14 @@ module.exports = {
         path: `${__dirname}/src/data`,
       }
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'www.midmichneuro.com',
+        protocol: 'https',
+        hostname: 'www.midmichneuro.com'
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
