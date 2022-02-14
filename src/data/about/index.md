@@ -19,8 +19,8 @@ We are **NOT** participating providers for Blue Care Network, Health Plus, Trica
 
 ## Laura
 ![Kristen](laura.jpg)
-Is our Senior Neuropsychological Technician with 20-years of experience.
+Is our Senior Neuropsychological Technician with 20-plus-years of experience.
 
 ## Teresa
 ![Teresa](teresa.jpg)
-Is our newest neuropsychology technician with six years of experience.
+Is our Neuropsychological Technician with eight years of experience.
