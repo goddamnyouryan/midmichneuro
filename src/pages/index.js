@@ -21,10 +21,11 @@ const IndexPage = () => (
 
       <div className={style.covid}>
       	We are pleased to announce that are entire staff has been fully vaccinated against Covid-19.
-	Our office follows CDC guidelines regarding safe practices regarding the Covid virus.
-	We clean all surfaces and testing materials regularly and we maintain social distancing guidelines at all times.
-	We require all patients and their families to wear face masks while in our office.
-	We urge everyone to get a Covid-19 vaccine when it is available to you.
+	      Our office follows CDC guidelines regarding safe practices regarding the Covid virus.
+	      We clean all surfaces and testing materials regularly and we maintain social distancing guidelines at all times.
+	      We require all patients and their families to wear face masks while in our office.
+	      We also require every patient to have at least one Covid-19 vaccination to be seen in our office as we do have 
+        immune-compromised staff.
       </div>
     </div>
     <Markdown path='/info' />
