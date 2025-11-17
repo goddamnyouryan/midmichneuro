@@ -1,5 +1,10 @@
-.title {
+.title, .altTitle {
   margin-bottom: 25px;
+}
+
+.altTitle {
+  display: none;
+  font-size: 44px;
 }
 
 .item {
@@ -8,4 +13,15 @@
 
 .item a {
   font-size: 18px;
+}
+
+@media (max-width: 960px ) { /* the width of the title image */
+
+  .title img {
+    display: none;
+  }
+
+  .altTitle {
+    display: block;
+  }
 }

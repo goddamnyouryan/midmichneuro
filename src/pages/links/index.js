@@ -14,6 +14,7 @@ const LinksPage = () => (
     <SEO title="Links" />
     <div className={style.title}>
       <img src={title} alt="Title for Links Page" />
+      <h2 className={style.altTitle}>Websites for Various Support Groups</h2>
     </div>
     <ul>
       {links.map((link, index) => (
