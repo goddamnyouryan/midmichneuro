@@ -16,6 +16,7 @@ const ContactPage = () => (
     <SEO title="Contact" />
     <div className={style.title}>
       <img src={title} alt="Title for Contact Page" />
+      <h2 className={style.altTitle}>Contact Us</h2>
     </div>
     <div className={style.container}>
       <div className={style.formContainer}>

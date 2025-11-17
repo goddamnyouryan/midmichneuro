@@ -16,7 +16,6 @@
 }
 
 @media (max-width: 960px ) { /* the width of the title image */
-
   .title img {
     display: none;
   }

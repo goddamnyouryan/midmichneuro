@@ -1,5 +1,10 @@
-.title {
+.title, .altTitle {
   margin-bottom: 25px;
+}
+
+.altTitle {
+  display: none;
+  font-size: 44px;
 }
 
 .subtitle {
@@ -29,4 +34,25 @@
 
 .contact {
   margin-bottom: 25px;
+}
+
+@media (max-width: 960px ) { /* the width of the title image */
+  .title img {
+    display: none;
+  }
+
+  .altTitle {
+    display: block;
+  }
+
+  .formContainer {
+    float: none;
+    width: 100%;
+  }
+
+  .mapContainer {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
 }
