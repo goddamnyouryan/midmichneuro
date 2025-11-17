@@ -1,12 +1,24 @@
 .footer {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto !important;
 }
 
 .copyright {
-  float: left;
-  margin-top: 10px;
+
 }
 
 .nav {
-  float: right;
+
+}
+
+@media (max-width: 850px) {
+  .footer {
+    display: block;
+  }
+
+  .copyright {
+    margin-bottom: 15px;
+  }
 }

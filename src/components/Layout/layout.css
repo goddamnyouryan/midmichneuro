@@ -1,10 +1,20 @@
 body {
 	background :#cdd4ff;
-	width: 960px;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #333540;
-	margin: 0 auto;
 	font-size: small;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 95%;
+		margin: auto;
+	}
 }
 
 a {

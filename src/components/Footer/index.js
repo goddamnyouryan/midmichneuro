@@ -4,7 +4,7 @@ import Nav from '../Nav'
 import style from "./index.module.css"
 
 const Footer = () => (
-  <footer className={style.footer}>
+  <footer className={style.footer + ' container'}>
     <div className={style.copyright}>
       Copyright ©{new Date().getFullYear()}{' '}
       MidMichigan Neuropsychology Associates, PLC.

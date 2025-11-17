@@ -6,7 +6,7 @@ import Nav from "../Nav"
 import style from "./index.module.css"
 
 const Header = ({ siteTitle }) => (
-  <header className={style.header}>
+  <header className={style.header + ' container'}>
     <h1 className={style.title}>
       <Link className={style.logo}to="/">{siteTitle}</Link>
     </h1>
