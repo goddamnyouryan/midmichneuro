@@ -3,7 +3,7 @@ import React from "react"
 
 import style from "./index.module.css"
 
-const Nav = ({ className }) => (
+const Nav = ({ className, links }) => (
   <ul className={className}>
     {links.map((link, index) => (
       <li className={style.item} key={index}>
@@ -12,13 +12,5 @@ const Nav = ({ className }) => (
     ))}
   </ul>
 )
-
-const links = [
-  { name: 'Info', url: '/'},
-  { name: 'About', url: '/about' },
-  { name: 'Forms', url: '/forms' },
-  { name: 'Links', url: '/links' },
-  { name: 'Contact', url: '/contact' }
-]
 
 export default Nav

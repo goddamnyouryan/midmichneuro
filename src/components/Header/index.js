@@ -5,12 +5,20 @@ import Nav from "../Nav"
 
 import style from "./index.module.css"
 
+const links = [
+  { name: 'Info', url: '/'},
+  { name: 'About', url: '/about' },
+  { name: 'Forms', url: '/forms' },
+  { name: 'Links', url: '/links' },
+  { name: 'Contact', url: '/contact' }
+]
+
 const Header = ({ siteTitle }) => (
   <header className={style.header + ' container'}>
     <h1 className={style.title}>
       <Link className={style.logo}to="/">{siteTitle}</Link>
     </h1>
-    <Nav className={style.nav} />
+    <Nav className={style.nav} links={links} />
   </header>
 )
 

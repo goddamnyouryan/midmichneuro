@@ -10,3 +10,31 @@
   border: 1px solid #666a7f;
   line-height: 1.4;
 }
+
+.alternativeToMap {
+  display: none;
+  line-height: 1.4;
+  margin: 75px 0;
+}
+
+.doctor {
+  margin-bottom: 25px;
+}
+
+.doctor h2 {
+  font-size: 32px;
+}
+
+.doctor h3 {
+  font-size: 18px;
+}
+
+@media (max-width: 960px) { /* the width of the image map image */
+  .map {
+    display: none;
+  }
+
+  .alternativeToMap {
+    display: block;
+  }
+}
