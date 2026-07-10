@@ -17,7 +17,25 @@ const links = [
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" />.
+    <div className={style.retirement}>
+      <p>
+        Dr. MacInnes and Zigmond Kozicki will be retiring on
+        <strong> July 31, 2026</strong>. We are no longer accepting new patient 
+        referrals. We will complete the current evaluations 
+        and therapies by the end of July. Unfortunately, there
+        are no other neuropsychologists in the Tri-City area.
+      </p>
+      <p>
+        If you need neuropsychological records from a previous 
+        evaluation that we have conducted please contact Kristen,
+        our office manager, at <a href="tel:989-323-0617">989-323-0617</a>.
+        You can also contact her by email at
+        <a href="mailto:neuropsych@mnabrain.com">neuropsych@mnabrain.com</a>.
+        She will be our long-term custodian of records.
+      </p>
+    </div>
+
     <div className={style.map}>
       <img src={info} useMap="#info-map" alt="Nav links for MNA Site" />
       <map name="info-map">

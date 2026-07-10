@@ -2,13 +2,21 @@
   margin: 25px 0;
 }
 
-.covid {
+.covid, .retirement {
   padding: 25px;
   background: #9aa0bf;
   margin: 25px 0;
   border-radius: 10px;
   border: 1px solid #666a7f;
   line-height: 1.4;
+}
+
+.retirement p:first-of-type {
+  margin-bottom: 15px;
+}
+
+.retirement a {
+  color: #333540;
 }
 
 .alternativeToMap {
