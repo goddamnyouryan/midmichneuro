@@ -29,9 +29,9 @@ const IndexPage = () => (
       <p>
         If you need neuropsychological records from a previous 
         evaluation that we have conducted please contact Kristen,
-        our office manager, at <a href="tel:989-323-0617">989-323-0617</a>.
+        our office manager, at <a href="tel:989-921-5100">989-921-5100</a>.
         You can also contact her by email at
-        <a href="mailto:neuropsych@mnabrain.com">neuropsych@mnabrain.com</a>.
+        <a href="mailto:neuropsych@mnabrain.com"> neuropsych@mnabrain.com</a>.
         She will be our long-term custodian of records.
       </p>
     </div>
