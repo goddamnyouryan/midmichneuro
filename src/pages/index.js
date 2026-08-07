@@ -20,11 +20,12 @@ const IndexPage = () => (
     <SEO title="Home" />.
     <div className={style.retirement}>
       <p>
-        Dr. MacInnes and Zigmond Kozicki will be retiring on
-        <strong> July 31, 2026</strong>. We are no longer accepting new patient 
-        referrals. We will complete the current evaluations 
-        and therapies by the end of July. Unfortunately, there
-        are no other neuropsychologists in the Tri-City area.
+        Dr. MacInnes and Zigmond Kozicki have retired as of
+        <strong> July 31, 2026</strong>.
+        {' '}
+        We are no longer accepting new patient referrals.
+        {' '}
+        Unfortunately, there are no other neuropsychologists in the Tri-City area.
       </p>
       <p>
         If you need neuropsychological records from a previous 
